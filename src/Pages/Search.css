@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.query-text {
+    font-weight: bold;
+}
+
+.comic-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.comic-card {
+    flex: 0 0 calc(33.33% - 20px);
+}
